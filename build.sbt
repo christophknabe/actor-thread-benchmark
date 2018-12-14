@@ -12,6 +12,6 @@ libraryDependencies ++= Seq(
 )
 
 //Download artifact sources. See https://github.com/typesafehub/sbteclipse/wiki/Using-sbteclipse
-EclipseKeys.withSource := true
+//EclipseKeys.withSource := true
 
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")

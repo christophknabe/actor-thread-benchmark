@@ -13,6 +13,9 @@ src_managed/
 project/boot/
 project/plugins/project/
 
+#IntelliJ IDEA specific:
+/.idea/
+
 #Eclipse specific
 .classpath
 .project
